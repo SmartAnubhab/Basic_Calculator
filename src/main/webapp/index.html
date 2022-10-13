@@ -7,40 +7,13 @@
 <body bgcolor="LightGray">
 	<h2>Basic Calculator 1.0</h2>
 	<hr>
-	<table>
-		<tr>
-			<td><label><strong>1st value</strong></label>
-		<input type="text" name="num1"><br></td>
-			<td><label><strong>2nd value</strong></label>
-		<input type="text" name="num2"><br></td>			
-		</tr>
-	</table>
-	
-	
-	<table>
-		<tr>
-		 	<td>
-				<form action="Add.jsp">		
+	<form action="Add.jsp" method="post">
+		<label><strong>1st value</strong></label>
+		<input type="text" name="num1"><br>
+		<label><strong>2nd value</strong></label>
+		<input type="text" name="num2"><br>
 		<button type="submit">Add</button>
 	</form>
-			</td>
-		 	<td>
-				<form action="JspTester.jsp" method="get">		
-		<button type="submit">Sub</button>
-	</form>
-			</td>
-		 	<td>
-				<form action="JspTester.jsp" method="get">		
-		<button type="submit">Mul</button>
-	</form>
-			</td>
-		 	<td>
-				<form action="JspTester.jsp" method="get">		
-		<button type="submit">Div</button>
-	</form>
-			</td>
-		</tr>
-	</table>
 	
 
 </body>
