@@ -7,6 +7,8 @@
 <title>Oops... something went wrong!</title>
 </head>
 <body>
+Oops.... something went wrong!
+<br>
 
 </body>
 </html>
