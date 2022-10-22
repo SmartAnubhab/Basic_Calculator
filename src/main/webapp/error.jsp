@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Oops... something went wrong!</title>
 </head>
-<body>
+<body bgcolor="sky blue">
 Oops.... something went wrong!
 <br>
 
