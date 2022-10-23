@@ -12,6 +12,7 @@
 	float b=Float.parseFloat(request.getParameter("num2"));
 	float result = a+b;
 	out.println("The result is " + result);
+	
 	%>
 	<br>
 	<a href="index.html">Go back to homepage</a>
