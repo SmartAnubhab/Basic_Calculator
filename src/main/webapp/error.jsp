@@ -9,6 +9,7 @@
 <body bgcolor="sky blue">
 Oops.... something went wrong!
 <br>
-
+<hr>
+	<a href="index.html">Go back to main page</a>
 </body>
 </html>
